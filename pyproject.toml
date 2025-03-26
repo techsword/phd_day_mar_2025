@@ -1,0 +1,11 @@
+[project]
+name = "phd-day-mar-2025"
+version = "0.1.0"
+description = "Snippet for demoing SLURM, uv and submitit"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.2.4",
+    "setuptools>=78.1.0",
+    "submitit>=1.5.2",
+]
