@@ -2,10 +2,10 @@
 
 #SBATCH --output=vscode_tunnel_job.out
 #SBATCH --job-name="code"
-#SBATCH --partition=GPU
-##SBATCH --gres=gpu
-##SBATCH --gpus-per-node=1
-##SBATCH --time 0-1  
+#SBATCH --partition=CPU # partition of the compute node
+##SBATCH --gres=gpu # Double # to comment things out here in the shebang block
+##SBATCH --gpus-per-node=1 
+##SBATCH --time 0-1  # Walltime for the job
 
 set -e
 
